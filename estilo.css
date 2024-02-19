@@ -1,0 +1,28 @@
+.titulo {
+    text-align: center;
+}
+.paragrafo {
+    text-align: center;
+}
+.fundo {
+    background: white;
+}
+.cabeçalho img {
+    max-width: 100px;
+    padding: auto;
+    margin-top: 20px; 
+}
+.cabeçalho {
+    background-color: black;
+}
+
+.contato {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.contato a {
+    text-decoration: none;
+   margin: 20px;
+   display: flex;
+}
