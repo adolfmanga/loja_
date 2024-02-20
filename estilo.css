@@ -1,28 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    }
+
 .titulo {
+    padding: auto;
     text-align: center;
 }
 .paragrafo {
+    padding: auto;
     text-align: center;
 }
 .fundo {
-    background: white;
+    background: rgb(100, 212, 8);
+}
+.cabeçalho h1 {
+    text-decoration: none;
+     color:Khaki ;
+     text-align: center;
 }
 .cabeçalho img {
-    max-width: 100px;
-    padding: auto;
-    margin-top: 20px; 
+    max-width: 10%;
+   padding-top: 25px;
+   margin-right: 20px;
 }
 .cabeçalho {
-    background-color: black;
+    background-color: Gold;
+    margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 15px;  
 }
 
 .contato {
-    font-size: 25px;
+   margin-left: 50%;
     text-align: center;
-    text-decoration: none;
+   list-style: none;
+    width: 30%;
 }
 .contato a {
+    margin: 15px;
     text-decoration: none;
-   margin: 20px;
-   display: flex;
+    list-style: none;
+}
+
+.bolsa img {
+    width: 19%;
+    padding-top: 50px;
+    margin-left: 50px;
+   margin-inline: center;
+}
+
+.bone img {
+    width: 19%;
+    padding-top: 50px;
+    margin-left: 50px;
+   margin-inline: center;
+}
+
+.pokebola img {
+    width: 19%;
+    padding-top: 50px;
+    margin-left: 50px;
+   margin-inline: center;
+}
+
+.fantas img {
+    width: 19%;
+    padding-top: 50px;
+    margin-left: 50px;
+   margin-inline: center;
+}
+
+.barra {
+    background-color: black;
+}
+.rodape {
+background-color: black;
+color: Purple;
+font-size: 20px;
+margin-left: 15px;
+margin-right: 15px;
+}
+.autor {
+    margin-left: 50px;
+}
+.ano {
+text-align: center;
+}
+.corpo {
+    display: block;
+}
+.botao {
+
 }
