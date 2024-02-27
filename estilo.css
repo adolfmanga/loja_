@@ -12,23 +12,21 @@
     text-align: center;
 }
 .fundo {
-    background: rgb(100, 212, 8);
+    background: rgb(17, 22, 13);
 }
-.cabeçalho h1 {
-    text-decoration: none;
-     color:Khaki ;
-     text-align: center;
-}
-.cabeçalho img {
-    max-width: 10%;
-   padding-top: 25px;
-   margin-right: 20px;
-}
+
 .cabeçalho {
     background-color: Gold;
     margin-top: 15px;
    margin-left: 15px;
-   margin-right: 15px;  
+   margin-right: 15px; 
+   border-radius: 20px; 
+}
+.navegador img {
+    width: 50%;
+}
+.cabeçalho li {
+    list-style: none;
 }
 
 .contato {
@@ -36,6 +34,7 @@
     text-align: center;
    list-style: none;
     width: 30%;
+   
 }
 .contato a {
     margin: 15px;
@@ -43,32 +42,12 @@
     list-style: none;
 }
 
-.bolsa img {
-    width: 19%;
-    padding-top: 50px;
-    margin-left: 50px;
-   margin-inline: center;
-}
 
-.bone img {
-    width: 19%;
-    padding-top: 50px;
-    margin-left: 50px;
-   margin-inline: center;
-}
-
-.pokebola img {
-    width: 19%;
-    padding-top: 50px;
-    margin-left: 50px;
-   margin-inline: center;
-}
-
-.fantas img {
-    width: 19%;
-    padding-top: 50px;
-    margin-left: 50px;
-   margin-inline: center;
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    
 }
 
 .barra {
@@ -87,9 +66,24 @@ margin-right: 15px;
 .ano {
 text-align: center;
 }
-.corpo {
-    display: block;
+
+.botao1 {
+display: block;
+margin-left: 50px;
 }
 .botao {
-
+    display: block;
+margin-left: 50px;
 }
+.corpo img {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+    .corpo {
+       margin-top: auto; 
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: auto;
+    }
