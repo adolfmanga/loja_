@@ -14,6 +14,9 @@
 .fundo {
     background: rgb(17, 22, 13);
 }
+.cabeçalho img {
+max-width: 25%;
+}
 
 .cabeçalho {
     background-color: Gold;
@@ -23,7 +26,7 @@
    border-radius: 20px; 
 }
 .navegador img {
-    width: 50%;
+    width: 10%;
 }
 .cabeçalho li {
     list-style: none;
@@ -50,9 +53,6 @@
     
 }
 
-.barra {
-    background-color: black;
-}
 .rodape {
 background-color: black;
 color: Purple;
@@ -74,7 +74,52 @@ margin-left: 50px;
 .botao {
     display: block;
 margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;
 }
+.botao1 {
+    display: block;
+margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;}
+
+.botao2 {
+    display: block;
+margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;}
+
+.botao3 {
+    display: block;
+margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;}
+
+.botao4 {
+    display: block;
+margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;}
+
+.botao5 {
+    display: block;
+margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;}
+
+.botao2.2 {
+    display: block;
+margin-left: 50px;
+text-decoration: none;
+background-color: Navy;
+color: aqua;}
+
 .corpo img {
     max-width: 100%;
     padding-left: 15px;
@@ -87,3 +132,37 @@ margin-left: 50px;
        margin-right: auto;
        margin-bottom: auto;
     }
+    .topo {
+background-color: black;
+    }
+    .topo img {
+    max-width: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+.topo a {
+    text-decoration: none;
+    font-size: 100px;
+    color:OrangeRed ;
+    
+}
+
+.pagina {
+    background-color:Violet ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 15px;
+}
+.pagina img {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: lime;
+}
